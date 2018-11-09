@@ -8,7 +8,7 @@ Check out [Generating a new SSH key and adding it to the ssh-agent](https://help
 
 ```sh
 ❯ mkdir ~/.ssh
-❯ ssh-keygen -t rsa -b 4096 -C "davidgchaves@gmail.com"
+❯ ssh-keygen -t rsa -b 4096 -C "alexramosclase@gmail.com"
 ❯ bash
 ❯ eval "$(ssh-agent -s)"
 ❯ fish
@@ -25,7 +25,7 @@ Follow these steps
 
 ```sh
 ❯ cd ~/projects
-❯ git clone git@github.com:davidgchaves/dotfiles-example.git
+❯ git clone git@github.com:alexramosv/dotfiles-example.git
 ❯ cd dotfiles
 ❯ cp ./gitconfig ~/.gitconfig
 ```
